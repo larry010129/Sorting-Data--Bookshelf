@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookshelf</title>
+</head>
+<body>
+  <header>
+    <h1>Bookshelf</h1>
+  </header>
+  <main>
+    <button type="button" id="sort-title">Sort by Title</button>
+    <button type="button" id="sort-pages">Sort by Pages</button>
+    <button type="button" id="sort-year">Sort by Year</button>
+    <select id="select">
+      <option value="all">All</option>
+      <option value="Fantasy">Fantasy</option>
+      <option value="Sci-Fi">Sci-Fi</option>
+      <option value="Classic">Classic</option>
+      <option value="Non-Fiction">Non-Fiction</option>
+    </select>
+    <p id="count"></p>
+    <div id="wrapper"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
